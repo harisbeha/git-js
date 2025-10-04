@@ -1,36 +1,17 @@
 {
   "name": "simple-git",
-  "description": "Simple GIT interface for node.js",
-  "version": "1.32.1",
-  "author": "Steve King <steve@mydev.co>",
-  "contributors": [
-    {
-      "name": "Steve King",
-      "email": "steve@mydev.co"
-    }
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-release-steps": "~0.3.7",
-    "nodeunit": "^0.9.1",
-    "sinon": "^1.15.4"
-  },
-  "keywords": [
-    "git",
-    "source control",
-    "vcs"
-  ],
-  "license": "MIT",
-  "repository": "git://github.com/steveukx/git-js.git",
-  "main": "src/index.js",
-  "bin": {},
+  "version": "1.0.0",
+  "description": "A light weight interface for running git commands in any node.js application.",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "node node_modules/nodeunit/bin/nodeunit"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "config": {},
-  "engines": {
-    "node": ">= 0.10.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/child_process": "^0.0.33",
+    "@types/fs": "^2.2.5",
+    "@types/node": "^14.14.22"
   }
 }
